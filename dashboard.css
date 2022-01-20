@@ -1,26 +1,48 @@
 * {
-  margin:0;
-  padding:0;
   box-sizing: border-box;
-  font-family: Gotham Rounded, sans-serif
 }
 
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
 
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #939fa8;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: rgb(26, 17, 56);
     overflow: hidden;
     font-family: Gotham Rounded, sans-serif;
-    width: 100%;
-    position: fixed;
   }
-  /*
-  .topnav .img{
-    float:left;
-    box-sizing: 3px;
-  }
-
+  
   /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
@@ -33,7 +55,7 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: rgb(195, 187, 224);
+    background-color: #ddd;
     color: black;
   }
   
@@ -41,8 +63,4 @@
   .topnav a.active {
     background-color: #605ec2;
     color: white;
-  }
-
-  h3{
-    padding-top: 50px;
   }

@@ -5,6 +5,7 @@
   font-family: Gotham Rounded, sans-serif
 }
 
+/*
 .img{
   float:left;
   width: 70%;
@@ -17,7 +18,7 @@
 }
 
 
-/* Style the search field */
+/* Style the search field 
 .search.form.example input[type=text] {
   padding: 10px;
   font-size: 17px;
@@ -27,7 +28,7 @@
   background: #f1f1f1;
 }
 
-/* Style the submit button */
+/* Style the submit button 
 .search.form.example button {
   float: left;
   width: 20%;
@@ -36,7 +37,7 @@
   color: white;
   font-size: 17px;
   border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
+  border-left: none; /* Prevent double borders 
   cursor: pointer;
 }
 
@@ -44,7 +45,7 @@
   background: #0b7dda;
 }
 
-/* Clear floats */
+/* Clear floats 
 .search.form.example::after {
   content: "";
   clear: both;
@@ -55,7 +56,7 @@
 .topnav {
     background-color: rgb(26, 17, 56);
     overflow: hidden;
-    
+    position: fixed;
     width: 100%;
   }
   
